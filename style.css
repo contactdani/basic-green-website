@@ -100,7 +100,7 @@ hr {
 input, select {
     vertical-align:middle;
 }
-          ///////*End of reset css*////////
+///////*End of reset css*////////
 
 .wrapper{
     width: 100%;
@@ -139,10 +139,14 @@ header nav h2{
 header nav li{
     float: left;
     margin-left: 20px;
+    transition: transform 0.5s;
 }
 header nav span{
     color: #51b105;
     margin-left: 20px;
+}
+header nav li:hover{
+    transform: scale(1.1);
 }
 #lead-banner img{
     width: 100%;
@@ -184,7 +188,11 @@ header nav span{
     margin-top: 25px;
     color: #fff;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.4)
+    box-shadow: 1px 1px 6px 1px rgba(0,0,0,0.4);
+    transition: transform 0.5s;
+}
+#lead-banner a:hover{
+    transform: scale(1.1);
 }
 section{
     margin: 40px 0 60px;
@@ -277,7 +285,7 @@ section#points-of-sale ul{
     content: "";
     display: block;
     width: 40px;
-    height: 40px;
+    height: 55px;
     float: left;
     margin-right: 10px;
     background: url(images/logo-sprite.png) no-repeat;
